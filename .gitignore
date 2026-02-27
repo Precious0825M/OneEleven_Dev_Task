@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+
+# Node / React
+node_modules/
+dist/
+frontend/.vite/
+
+# OS
+.DS_Store
