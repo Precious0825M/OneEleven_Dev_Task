@@ -17,7 +17,7 @@ app.add_middleware(
 
 @app.get("/")
 def health():
-    return {"API is healthy": True}
+    return {"ok": True}
 
 @app.post("/")
 async def sort_word(req: Request):
@@ -31,6 +31,6 @@ async def sort_word(req: Request):
         return JSONResponse({"error": "Send JSON with format {'data': 'String_here'}"}, status_code=400)
     
     word = sorted(list(data))
-    return {"Word": word}
+    return {"word": word}
 
     

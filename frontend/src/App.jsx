@@ -91,14 +91,14 @@ function App() {
           <p>
             <b>Sorted array: </b>
               <code style={{ fontSize: 18 }}>
-            [{result.Word.join(", ")}]
+            [{result.word.join(", ")}]
           </code>
           </p>
         
 
           <p>
             <b>Joined Word: </b>
-            <code style={{ fontSize: 18 }}>{result.Word.join("")}</code>
+            <code style={{ fontSize: 18 }}>{result.word.join("")}</code>
           </p>
           
         </div>
